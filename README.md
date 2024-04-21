@@ -6,3 +6,6 @@ Data Exploration and Visualization, Develop a logistic regression model to predi
 
 # Project 3
 Develop a Linear regression model to predict price of house in Melbourne, Model Evaluation, Set up a Lasso regression model with specified parameters and fit it to the training data, Estimate AIC, AICc, BIC, as well as 5-fold CV for both models using only the training data. Estimate the models true OOS performance by computing their deviance on the test data.
+
+# Project 4
+Delve into the effects of Ozempic on obese and hypertensive patients aged 40-75. A key focus is on addressing endogeneity to estimate the treatment effect accurately. Apply EDA with Pandas and Seaborn packages, Data Mining with Pandas. Conduct Double Lasso Regression to capture the confounding effect and found the treatment effect of Ozempic on obese and hypertensive patients aged 40-75.
