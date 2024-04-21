@@ -9,3 +9,6 @@ Develop a Linear regression model to predict price of house in Melbourne, Model 
 
 # Project 4
 Delve into the effects of Ozempic on obese and hypertensive patients aged 40-75. A key focus is on addressing endogeneity to estimate the treatment effect accurately. Apply EDA with Pandas and Seaborn packages, Data Mining with Pandas. Conduct Double Lasso Regression to capture the confounding effect and found the treatment effect of Ozempic on obese and hypertensive patients aged 40-75.
+
+# Project 6
+Split data set with 70% train and 30% test then build random forest model, then compute MSE. Use "Mean Decrease in Impurity" and "Permutation Feature Importance" to compute the variable importance of the random forest. Use the same split to build lasso regression. Use the breast cancer dataset to build decision tree classifier to predict the diagnosis.  Split the data into 70% train and 30% test. Print the confusion matrix and interpret. Visualize the Decision Tree.
