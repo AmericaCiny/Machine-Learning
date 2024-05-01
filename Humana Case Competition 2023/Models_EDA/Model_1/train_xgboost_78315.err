@@ -1,0 +1,24 @@
+INFO:__main__:Loading datasets...
+INFO:__main__:Merging datasets...
+INFO:__main__:Preprocessing data...
+INFO:__main__:Setting up XGBoost classifier...
+INFO:__main__:Performing GridSearchCV for hyperparameter tuning...
+INFO:__main__:Best Parameters found: {'colsample_bytree': 0.9, 'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 150, 'subsample': 1}
+INFO:__main__:Running cross-validation...
+INFO:__main__:Cross-validation scores: [0.99155891 0.99237993 0.99306625 0.99255096 0.9929187 ]
+INFO:__main__:Training model...
+INFO:__main__:Accuracy: 0.9904194604086846
+INFO:__main__:Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99    794154
+           1       1.00      0.96      0.98    208086
+
+    accuracy                           0.99   1002240
+   macro avg       0.99      0.98      0.99   1002240
+weighted avg       0.99      0.99      0.99   1002240
+
+INFO:__main__:Confusion Matrix:
+[[793522    632]
+ [  8970 199116]]
+INFO:__main__:Model saved as xgboost_model.joblib

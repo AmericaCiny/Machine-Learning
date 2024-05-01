@@ -1,0 +1,214 @@
+Exploring target_train...
+
+Column Types:
+ id                      int64
+therapy_id             object
+therapy_start_date     object
+therapy_end_date       object
+tgt_ade_dc_ind          int64
+race_cd               float64
+est_age               float64
+sex_cd                 object
+cms_disabled_ind      float64
+cms_low_income_ind    float64
+dtype: object 
+
+Columns with missing values:
+ race_cd               68
+est_age               83
+sex_cd                83
+cms_disabled_ind      83
+cms_low_income_ind    83
+dtype: int64 
+
+==================================================
+Exploring medclms_train...
+
+Column Types:
+ therapy_id                 object
+medclm_key                  int64
+clm_unique_key              int64
+primary_diag_cd            object
+visit_date                 object
+diag_cd2                   object
+diag_cd3                   object
+diag_cd4                   object
+diag_cd5                   object
+diag_cd6                   object
+diag_cd7                   object
+diag_cd8                   object
+diag_cd9                   object
+process_date               object
+reversal_ind               object
+pot                        object
+util_cat                   object
+hedis_pot                  object
+clm_type                   object
+ade_diagnosis               int64
+seizure_diagnosis           int64
+pain_diagnosis              int64
+fatigue_diagnosis           int64
+nausea_diagnosis            int64
+hyperglycemia_diagnosis     int64
+constipation_diagnosis      int64
+diarrhea_diagnosis          int64
+dtype: object 
+
+Columns with missing values:
+ diag_cd2        24130
+diag_cd3        41358
+diag_cd4        52544
+diag_cd5        61886
+diag_cd6        67371
+diag_cd7        72473
+diag_cd8        75957
+diag_cd9        78844
+reversal_ind    98870
+util_cat        43428
+dtype: int64 
+
+==================================================
+Exploring rxclms_train...
+
+Column Types:
+ therapy_id                  object
+document_key                object
+ndc_id                       int64
+service_date                object
+process_date                object
+pay_day_supply_cnt           int64
+rx_cost                    float64
+tot_drug_cost_accum_amt    float64
+reversal_ind                object
+mail_order_ind              object
+generic_ind                 object
+maint_ind                   object
+gpi_drug_group_desc         object
+gpi_drug_class_desc         object
+hum_drug_class_desc         object
+strength_meas               object
+metric_strength            float64
+specialty_ind               object
+clm_type                    object
+ddi_ind                      int64
+anticoag_ind                 int64
+diarrhea_treat_ind           int64
+nausea_treat_ind             int64
+seizure_treat_ind            int64
+dtype: object 
+
+Columns with missing values:
+ gpi_drug_group_desc    1899
+gpi_drug_class_desc    1899
+hum_drug_class_desc    1899
+strength_meas          2148
+metric_strength        2148
+dtype: int64 
+
+==================================================
+Exploring target_holdout...
+
+Column Types:
+ id                      int64
+therapy_id             object
+therapy_start_date     object
+race_cd               float64
+est_age               float64
+sex_cd                 object
+cms_disabled_ind      float64
+cms_low_income_ind    float64
+dtype: object 
+
+Columns with missing values:
+ race_cd               18
+est_age               28
+sex_cd                28
+cms_disabled_ind      28
+cms_low_income_ind    28
+dtype: int64 
+
+==================================================
+Exploring medclms_holdout...
+
+Column Types:
+ therapy_id                 object
+medclm_key                  int64
+clm_unique_key              int64
+primary_diag_cd            object
+visit_date                 object
+diag_cd2                   object
+diag_cd3                   object
+diag_cd4                   object
+diag_cd5                   object
+diag_cd6                   object
+diag_cd7                   object
+diag_cd8                   object
+diag_cd9                   object
+process_date               object
+reversal_ind               object
+pot                        object
+util_cat                   object
+hedis_pot                  object
+clm_type                   object
+ade_diagnosis               int64
+seizure_diagnosis           int64
+pain_diagnosis              int64
+fatigue_diagnosis           int64
+nausea_diagnosis            int64
+hyperglycemia_diagnosis     int64
+constipation_diagnosis      int64
+diarrhea_diagnosis          int64
+dtype: object 
+
+Columns with missing values:
+ diag_cd2         5363
+diag_cd3         9413
+diag_cd4        12366
+diag_cd5        15037
+diag_cd6        16302
+diag_cd7        17709
+diag_cd8        18274
+diag_cd9        18938
+reversal_ind    23024
+util_cat        10039
+dtype: int64 
+
+==================================================
+Exploring rxclms_holdout...
+
+Column Types:
+ therapy_id                  object
+document_key                object
+ndc_id                       int64
+service_date                object
+process_date                object
+pay_day_supply_cnt           int64
+rx_cost                    float64
+tot_drug_cost_accum_amt    float64
+reversal_ind                object
+mail_order_ind              object
+generic_ind                 object
+maint_ind                   object
+gpi_drug_group_desc         object
+gpi_drug_class_desc         object
+hum_drug_class_desc         object
+strength_meas               object
+metric_strength            float64
+specialty_ind               object
+clm_type                    object
+ddi_ind                      int64
+anticoag_ind                 int64
+diarrhea_treat_ind           int64
+nausea_treat_ind             int64
+seizure_treat_ind            int64
+dtype: object 
+
+Columns with missing values:
+ gpi_drug_group_desc    453
+gpi_drug_class_desc    453
+hum_drug_class_desc    453
+strength_meas          511
+metric_strength        511
+dtype: int64 
+
+==================================================
