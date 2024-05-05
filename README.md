@@ -1,3 +1,6 @@
+# Humana Case Competition
+Osimertinib, when administered as prescribed, offers the potential to extend individuals' lifespans. However, manageable side effects can prompt individuals to discontinue treatment prematurely. Our objective was to develop a predictive model to anticipate which therapies might terminate prematurely following the occurrence of reported side effects, also known as adverse drug events (ADEs). Through exploratory data analysis (EDA), we identified relevant variables and utilized boosting models to discern the influential factors that could lead to treatment discontinuation. Our efforts culminated in achieving accuracy levels exceeding 90%.
+
 # Project 1
 Create linear regression to predict Estimated Shares Outstanding, Explain how multicollinearity can affect the interpretation of a linear regression model's coefficients, Create a histogram of the p-values to detect the skeweness, BH procedure to control the FDR with a q of 0.1, apply the BH procedure at different q values to test the Sensitivity.
 
